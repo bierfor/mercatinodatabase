@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "contenuto": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "titolo"
+    }
+  }
+}

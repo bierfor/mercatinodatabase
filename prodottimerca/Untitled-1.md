@@ -1,0 +1,1 @@
+postgres://prodmerc_user:xdzRCbVVoIEI7ruENfGwovQTMUMManfm@dpg-ce96pqcgqg46koouppbg-a.frankfurt-postgres.render.com/prodmerc

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "elettronicas",
+  "info": {
+    "singularName": "elettronica",
+    "pluralName": "elettronicas",
+    "displayName": "Elettronica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descrizione": {
+      "type": "richtext"
+    },
+    "prezzo": {
+      "type": "decimal"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "uid"
+    },
+    "prodotti": {
+      "type": "enumeration",
+      "enum": [
+        "telefonia",
+        "divani",
+        "elettronica"
+      ]
+    }
+  }
+}
