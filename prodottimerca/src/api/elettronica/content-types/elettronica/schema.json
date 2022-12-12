@@ -39,6 +39,9 @@
         "divani",
         "elettronica"
       ]
+    },
+    "data": {
+      "type": "datetime"
     }
   }
 }
