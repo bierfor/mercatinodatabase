@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@strapi/provider-upload-cloudinary": "^4.5.3"
+    "@strapi/provider-upload-cloudinary": "^4.5.3",
+    "node": "^19.3.0",
+    "strapi": "^3.6.11"
   }
 }
