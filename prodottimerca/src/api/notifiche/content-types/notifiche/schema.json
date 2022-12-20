@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifiches",
+  "info": {
+    "singularName": "notifiche",
+    "pluralName": "notifiches",
+    "displayName": "Notifiche"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offerte": {
+      "type": "richtext"
+    }
+  }
+}
