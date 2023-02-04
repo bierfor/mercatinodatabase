@@ -37,7 +37,11 @@
       "enum": [
         "telefonia",
         "divani",
-        "elettronica"
+        "elettronica",
+        "abbigliamento",
+        "tavoli",
+        "arredamenti",
+        "altri"
       ]
     },
     "data": {
