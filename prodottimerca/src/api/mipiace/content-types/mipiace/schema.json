@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mipiaces",
+  "info": {
+    "singularName": "mipiace",
+    "pluralName": "mipiaces",
+    "displayName": "mipiace",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "elettronicas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::elettronica.elettronica",
+      "inversedBy": "mipiaces"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "giorno": {
+      "type": "datetime"
+    }
+  }
+}

@@ -46,6 +46,12 @@
     },
     "data": {
       "type": "datetime"
+    },
+    "mipiaces": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::mipiace.mipiace",
+      "mappedBy": "elettronicas"
     }
   }
 }
